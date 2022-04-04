@@ -103,6 +103,18 @@ public class NetworkManager : MonoBehaviour
 		return false;
 	}
 
+	public bool SendChatRequest(string message)
+	{
+		if (cManager && cManager.IsConnected())
+		{
+			RequestChat request = new RequestChat();
+			request.send(message);
+			cManager.send(request);
+			return true;
+		}
+		return false;
+	}
+
 	public IEnumerator RequestHeartbeat(float time)
 	{
 		yield return new WaitForSeconds(time);

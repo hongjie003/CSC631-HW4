@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../HW4_Client/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/NetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
