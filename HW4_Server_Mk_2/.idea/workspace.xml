@@ -2,78 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Hero.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/HeroCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/HeroCreator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Highlight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Highlight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/ConnectionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/ConnectionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestHeartbeat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestHeartbeat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestInteract.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestJoin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestJoin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestLeave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestLeave.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestReady.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestReady.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestSetName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Request/RequestSetName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseInteract.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseInteract.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseJoin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseJoin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseLeave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseLeave.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseReady.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseReady.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseSetName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Network/Response/ResponseSetName.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/NetworkManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/ObjectSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/ObjectSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/UI/ActionMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/UI/ActionMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/UI/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/UI/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Util.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/Util.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networking/request/RequestChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networking/response/ResponseChat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/configuration/GameServerConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/configuration/GameServerConf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/core/GameClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/core/GameClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/core/GameServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/core/GameServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/core/NetworkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/core/NetworkManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/model/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/GameRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/GameRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestHeartbeat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestHeartbeat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestInteract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestJoin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestLeave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestLeave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestMove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestReady.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestReady.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/GameResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/GameResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseInteract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseInteract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseJoin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseLeave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseLeave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseMove.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseMove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseReady.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/response/ResponseReady.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/ConfFileParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/ConfFileParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/DataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/DataReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/GamePacket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/GamePacket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/GamePacketStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/GamePacketStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/utility/Log.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestHeartbeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestHeartbeat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestInteract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestInteract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestLeave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestReady.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestReady.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseInteract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseInteract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseLeave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseReady.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseReady.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metadata/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,6 +166,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
