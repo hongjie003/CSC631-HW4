@@ -70,6 +70,8 @@
      <Compile Include="Assets/Scripts/Network/Response/NetworkResponse.cs" />
      <Compile Include="Assets/Scripts/ObjectSelector.cs" />
      <Compile Include="Assets/Scripts/Highlight.cs" />
+     <Compile Include="Assets/Scripts/Network/Request/RequestChat.cs" />
+     <Compile Include="Assets/Scripts/Network/Response/ResponseChat.cs" />
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" />
