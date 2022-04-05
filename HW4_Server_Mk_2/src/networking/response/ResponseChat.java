@@ -8,6 +8,7 @@ import utility.Log;
 
 public class ResponseChat extends GameResponse {
     private Player player;
+    private String username;
     private String message;
 
     public ResponseChat() { responseCode = Constants.SMSG_CHAT; }
@@ -16,9 +17,10 @@ public class ResponseChat extends GameResponse {
     public byte[] constructResponseInBytes() {
         GamePacket packet = new GamePacket(responseCode);
         packet.addInt32(player.getID());
+        packet.addString(username);
         packet.addString(message);
 
-        Log.printf("Player with id %d sent the message: %s", player.getID(), message);
+        Log.printf("Player with id %d with the name %s sent the message: %s", player.getID(), username, message);
 
         return  packet.getBytes();
     }
@@ -27,7 +29,8 @@ public class ResponseChat extends GameResponse {
         this.player = player;
     }
 
-    public void setData(String message) {
+    public void setData(String username, String message) {
+        this.username = username;
         this.message = message;
     }
 }

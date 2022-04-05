@@ -9,9 +9,10 @@ public class RequestChat : NetworkRequest
         request_id = Constants.CMSG_CHAT;
     }
 
-    public void send(string message)
+    public void send(string username, string message)
     {
         packet = new GamePacket(request_id);
+        packet.addString(username);
         packet.addString(message);
     }
 }

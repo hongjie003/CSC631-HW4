@@ -10,6 +10,7 @@ import utility.DataReader;
 import core.NetworkManager;
 
 public class RequestChat extends GameRequest {
+    private String username;
     private String message;
 
     ResponseChat responseChat;
@@ -18,6 +19,7 @@ public class RequestChat extends GameRequest {
 
     @Override
     public void parse() throws IOException {
+        username = DataReader.readString(dataInput);
         message = DataReader.readString(dataInput);
     }
 
@@ -26,7 +28,7 @@ public class RequestChat extends GameRequest {
         Player player = client.getPlayer();
 
         responseChat.setPlayer(player);
-        responseChat.setData(message);
+        responseChat.setData(username, message);
         NetworkManager.addResponseForAllOnlinePlayers(player.getID(), responseChat);
 
     }

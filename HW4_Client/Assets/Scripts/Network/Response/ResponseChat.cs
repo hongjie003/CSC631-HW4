@@ -5,6 +5,7 @@ using UnityEngine;
 public class ResponseChatEventArgs : ExtendedEventArgs
 {
     public int user_id { get; set; } // The user_id of whom who sent the request
+    public string username { get; set; } // The username of the sender
     public string message { get; set; } // The message of whom sent the request
 
     public ResponseChatEventArgs()
@@ -16,6 +17,7 @@ public class ResponseChatEventArgs : ExtendedEventArgs
 public class ResponseChat : NetworkResponse
 {
     private int user_id;
+    private string username;
     private string message;
 
     public ResponseChat()
@@ -25,6 +27,7 @@ public class ResponseChat : NetworkResponse
     public override void parse()
     {
         user_id = DataReader.ReadInt(dataStream);
+        username = DataReader.ReadString(dataStream);
         message = DataReader.ReadString(dataStream);
     }
 
@@ -33,6 +36,7 @@ public class ResponseChat : NetworkResponse
         ResponseChatEventArgs args = new ResponseChatEventArgs
         {
             user_id = user_id,
+            username = username,
             message = message
         };
 

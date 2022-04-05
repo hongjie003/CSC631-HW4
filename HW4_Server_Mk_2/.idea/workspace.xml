@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/NetworkManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseChat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
