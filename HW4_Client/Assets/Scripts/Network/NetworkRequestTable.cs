@@ -16,6 +16,7 @@ public class NetworkRequestTable {
 		add(Constants.CMSG_MOVE, "RequestMove");
 		add(Constants.CMSG_INTERACT, "RequestInteract");
 		add(Constants.CMSG_CHAT, "RequestChat");
+		add(Constants.CMSG_DAMAGE, "DamageRequest");
 	}
 	
 	public static void add(short request_id, string name) {
