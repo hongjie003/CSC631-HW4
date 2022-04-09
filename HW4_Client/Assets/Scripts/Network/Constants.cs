@@ -20,6 +20,8 @@ public class Constants
 	public static readonly short SMSG_INTERACT = 206;
 	public static readonly short CMSG_CHAT = 107;
 	public static readonly short SMSG_CHAT = 207;
+	public static readonly short CMSG_DAMAGE = 108;
+	public static readonly short SMSG_DAMAGE = 208;
 	public static readonly short CMSG_HEARTBEAT = 111;
 
 	public static int USER_ID = -1;
