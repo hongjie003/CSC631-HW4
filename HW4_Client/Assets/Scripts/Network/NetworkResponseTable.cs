@@ -16,7 +16,7 @@ public class NetworkResponseTable {
 		add(Constants.SMSG_MOVE, "ResponseMove");
 		add(Constants.SMSG_INTERACT, "ResponseInteract");
 		add(Constants.SMSG_CHAT, "ResponseChat");
-		add(Constants.SMSG_DAMAGE, "DamageResponse")
+		add(Constants.SMSG_DAMAGE, "DamageResponse");
 	}
 	
 	public static void add(short response_id, string name) {

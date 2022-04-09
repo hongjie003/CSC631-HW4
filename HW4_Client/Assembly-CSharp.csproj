@@ -38,6 +38,8 @@
   <ItemGroup>
      <Compile Include="Assets/Scripts/Network/MessageQueue.cs" />
      <Compile Include="Assets/Scripts/NetworkManager.cs" />
+     <Compile Include="Assets/Scripts/UI/ButtonDamage.cs" />
+     <Compile Include="Assets/Scripts/Network/Response/DamageResponse.cs" />
      <Compile Include="Assets/Scripts/Network/DataReader.cs" />
      <Compile Include="Assets/Scripts/UI/ActionMenu.cs" />
      <Compile Include="Assets/Scripts/Network/Response/ResponseInteract.cs" />
@@ -65,6 +67,7 @@
      <Compile Include="Assets/Scripts/Network/Response/ResponseLeave.cs" />
      <Compile Include="Assets/Scripts/Network/Request/RequestMove.cs" />
      <Compile Include="Assets/Scripts/Network/ConnectionManager.cs" />
+     <Compile Include="Assets/Scripts/Network/Request/DamageRequest.cs" />
      <Compile Include="Assets/UI/Scripts/GlowEffect.cs" />
      <Compile Include="Assets/Scripts/Network/Constants.cs" />
      <Compile Include="Assets/Scripts/Network/Response/ResponseMove.cs" />
@@ -78,7 +81,6 @@
      <Compile Include="Assets/Scripts/Network/Response/NetworkResponse.cs" />
      <Compile Include="Assets/Scripts/ObjectSelector.cs" />
      <Compile Include="Assets/Scripts/Highlight.cs" />
-     <Compile Include="Assets/Scripts/Network/Request/DamageReq.cs" />
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" />
