@@ -25,10 +25,10 @@ public class ButtonDamage : MonoBehaviour
 
     }
 
-    public void Send(string message, int damageSent)
+    public void Send()
     {
         string userName = gameManager.Players[Constants.USER_ID - 1].Name;
-        networkManager.SendDamageRequest(userName, damageSent);
+        networkManager.SendDamageRequest(userName, 20);
     }
 
     public void OnDamageResponse(ExtendedEventArgs eventArgs)

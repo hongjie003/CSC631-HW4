@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/NetworkManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/UI/ButtonDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/Assets/Scripts/UI/ButtonDamage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/MacOS/CSC631HW4" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/MacOS/CSC631HW4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/globalgamemanagers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/globalgamemanagers.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/level0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/level1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/resources.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/resources.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/sharedassets0.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/Resources/Data/sharedassets1.assets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4_Client/build.app/Contents/_CodeSignature/CodeResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
