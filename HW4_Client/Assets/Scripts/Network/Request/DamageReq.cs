@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageReq : MonoBehaviour
+public class DamageReq : NetworkRequest
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+
+    public DamageReq() {
+        request_id = Constants.CMSG_DAMAGE;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void send() {
+        packet = new GamePacket(request_id);
+        packet.addString(username);
+        packet.addInt32(damageSent);
     }
+
 }
