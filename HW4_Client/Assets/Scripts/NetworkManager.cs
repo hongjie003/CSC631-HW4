@@ -115,6 +115,18 @@ public class NetworkManager : MonoBehaviour
         return false;
     }
 
+    public bool SendDamageRequest(string username, int damageSent)
+    {
+        if (cManager && cManager.IsConnected())
+        {
+            DamageRequest request = new DamageRequest();
+            request.send(username, damageSent);
+            cManager.send(request);
+            return true;
+        }
+        return false;
+    }
+
     public IEnumerator RequestHeartbeat(float time)
     {
         yield return new WaitForSeconds(time);
