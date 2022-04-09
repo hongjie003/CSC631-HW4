@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DamageReq : NetworkRequest
+public class DamageRequest : NetworkRequest
 {
 
-    public DamageReq() {
+    public DamageRequest() {
         request_id = Constants.CMSG_DAMAGE;
     }
 

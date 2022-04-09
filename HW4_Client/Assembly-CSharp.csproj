@@ -44,7 +44,6 @@
      <Compile Include="Assets/Scripts/UI/ActionMenu.cs" />
      <Compile Include="Assets/Scripts/Network/Response/ResponseInteract.cs" />
      <Compile Include="Assets/Scripts/Network/Response/ResponseSetName.cs" />
-     <Compile Include="Assets/Player.cs" />
      <Compile Include="Assets/UI/Scripts/Scroller.cs" />
      <Compile Include="Assets/Scripts/Network/Response/ResponseReady.cs" />
      <Compile Include="Assets/Scripts/UI/MainMenu.cs" />

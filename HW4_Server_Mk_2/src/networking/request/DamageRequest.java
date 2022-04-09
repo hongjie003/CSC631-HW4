@@ -10,7 +10,6 @@ import utility.DataReader;
 import core.NetworkManager;
 
 public class DamageRequest extends GameRequest {
-    private Player player;
     private String username;
     private int damageSent;
 

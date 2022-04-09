@@ -21,11 +21,11 @@ public class ButtonDamage : MonoBehaviour
         networkManager = GameObject.Find("Network Manager").GetComponent<NetworkManager>();
         msgQueue = networkManager.GetComponent<MessageQueue>();
 
-        msgQueue.AddCallback(Constants.SMSG_Damage, OnDamageResponse);
+        msgQueue.AddCallback(Constants.SMSG_DAMAGE, OnDamageResponse);
 
     }
 
-    public void Send(string message)
+    public void Send(string message, int damageSent)
     {
         string userName = gameManager.Players[Constants.USER_ID - 1].Name;
         networkManager.SendDamageRequest(userName, damageSent);

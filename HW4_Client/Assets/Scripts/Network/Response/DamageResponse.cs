@@ -18,6 +18,7 @@ public class DamageResponse : NetworkResponse
 {
     private int user_id;
     private string username;
+    private int damageSent;
 
     public DamageResponse()
     {
