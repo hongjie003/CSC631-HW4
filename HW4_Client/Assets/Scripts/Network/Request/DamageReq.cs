@@ -9,7 +9,7 @@ public class DamageReq : NetworkRequest
         request_id = Constants.CMSG_DAMAGE;
     }
 
-    public void send() {
+    public void send(string username, int damageSent) {
         packet = new GamePacket(request_id);
         packet.addString(username);
         packet.addInt32(damageSent);
